@@ -1,7 +1,7 @@
-# 🖐️PalmPort
+# ✋ PalmPort
 
-Teleport files from your laptop to your phone **using just hand gestures** ✊👉📲.  
-Close your fist in front of the webcam, and the currently open file will be “teleported” over Wi-Fi to your phone.  
+PalmPort lets you **teleport files from your laptop to your phone using hand gestures** ✊👉📲.  
+Close your fist in front of the webcam, and the currently open file will be “ported” over Wi-Fi to your phone.  
 
 No extra apps are needed on your phone — just open the link in your browser.
 
@@ -20,7 +20,7 @@ No extra apps are needed on your phone — just open the link in your browser.
 ## 📂 Project Structure
 ```
 
-GestureTeleport/
+PalmPort/
 │── sender.py              # Main script (gesture + file transfer)
 │── config.py              # Host/port configuration
 │── haarcascades/
@@ -36,8 +36,8 @@ GestureTeleport/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/GestureTeleport.git
-   cd GestureTeleport
+   git clone https://github.com/your-username/PalmPort.git
+   cd PalmPort
 ````
 
 2. Install dependencies (Python 3.9+ recommended):
@@ -46,7 +46,7 @@ GestureTeleport/
    pip install -r requirements.txt
    ```
 
-   If `mediapipe` doesn’t install, downgrade Python (e.g., 3.10 or 3.9).
+   ⚠️ Note: if `mediapipe` doesn’t install, use Python 3.9 or 3.10 (newer versions break support).
 
 ---
 
@@ -96,8 +96,6 @@ GestureTeleport/
 * 🖼️ Add **hand-pose tracking with MediaPipe** for more gestures (like two-hand swipe = multi-file transfer)
 * 🔐 Add optional encryption when sending over Wi-Fi
 * 🪄 Real “teleport effect” animation on both devices
-
----
 
 
 
