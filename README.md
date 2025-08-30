@@ -1,4 +1,4 @@
-# 🖐️ GestureTeleport
+# 🖐️PlamPort
 
 Teleport files from your laptop to your phone **using just hand gestures** ✊👉📲.  
 Close your fist in front of the webcam, and the currently open file will be “teleported” over Wi-Fi to your phone.  
